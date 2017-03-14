@@ -1,0 +1,32 @@
+.todo-app {
+    margin: auto;
+    max-width: 350px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.list-group-item span {
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+}
+
+.task-completed{
+    background-color:green;
+}
+.task-not-started {
+    background-color: red;
+}
+
+.delete-button {
+    margin: 20px 20px 0px 70px;
+}
